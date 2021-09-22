@@ -1,0 +1,201 @@
+
+[class*="col-"] {
+    width: 100%;
+}
+
+* {
+
+    box-sizing: border-box;
+  
+  }
+ul {
+        list-style: none;
+}
+li {
+    margin-right: 5%;
+    margin-bottom: 7%;
+}
+li a {
+    text-decoration: none;
+    color: gray;
+}
+
+.container{
+    display: grid;
+    font-family: sans-serif;
+}
+
+.left {
+    float: left;
+    border: none;
+
+}
+.right {
+    float: right;
+    border: none;
+}
+
+
+.column {
+    float: left;
+}
+
+
+
+#footer {
+    float: left;
+}
+
+
+
+@media only screen and (min-width: 992px) 
+{
+    /* For desktop: */
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+    
+    .menu{
+        border: none;
+        margin: 0 5%;
+    }
+
+    #banner {
+        position: relative;
+        background-image: url("https://s3.amazonaws.com/codecademy-content/courses/ltp/img/lodging.png");
+        width: 100%;
+        height: 500px;
+        background-size: cover;
+        margin-top: -5%;
+    }
+    #main{
+        margin: 4%; 
+    }    
+    .content{
+        position: absolute;
+        margin-top: 10%;
+        margin-left: 5%;
+        color: white;
+    }
+    .content_2{
+        color: black;
+        margin: 0;
+    }
+    .column {
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+    .mid {
+        margin-top: 10%;
+    }
+    .footercontent {
+        margin-top: -7%;
+        float: left;
+        padding: 4%;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px)
+{
+    /* For tablets: */
+    .col-s-1 {width: 8.33%;}
+    .col-s-2 {width: 16.66%;}
+    .col-s-3 {width: 25%;}
+    .col-s-4 {width: 33.33%;}
+    .col-s-5 {width: 41.66%;}
+    .col-s-6 {width: 50%;}
+    .col-s-7 {width: 58.33%;}
+    .col-s-8 {width: 66.66%;}
+    .col-s-9 {width: 75%;}
+    .col-s-10 {width: 83.33%;}
+    .col-s-11 {width: 91.66%;}
+    .col-s-12 {width: 100%;}
+
+    #main{
+        margin: 4%; 
+    }  
+    .menu{
+        border: none;
+        margin: 0;
+    }
+
+    #banner {
+        position: relative;
+        background-size: cover;
+    }
+    .content{
+        position: absolute;
+        margin-left: 4%;
+        color: black;
+    }
+    .content_2{
+        color: black;
+        margin-top: 15%;
+    }
+    .column img {
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+    .mid {
+        margin-top: 0;
+    }
+}
+
+@media only screen and (max-width: 768px)
+{
+    /* For mobiles: */
+    .col-m-1 {width: 8.33%;}
+    .col-m-2 {width: 16.66%;}
+    .col-m-3 {width: 25%;}
+    .col-m-4 {width: 33.33%;}
+    .col-m-5 {width: 41.66%;}
+    .col-m-6 {width: 50%;}
+    .col-m-7 {width: 58.33%;}
+    .col-m-8 {width: 66.66%;}
+    .col-m-9 {width: 75%;}
+    .col-m-10 {width: 83.33%;}
+    .col-m-11 {width: 91.66%;}
+    .col-m-12 {width: 100%;}
+
+    .menu{
+        border: none;
+        margin-left: -5%;
+    }
+
+    #main{
+        margin: 4%; 
+    }  
+    #banner {
+        position: relative;
+        background-size: cover;
+    }
+    
+    .content{
+        /* position: absolute; */
+        margin-top: 10%;
+        margin-left: 4%;
+        color: black;
+    }
+
+    .content_2{
+        color: black;
+        margin-top: 10%;
+    }
+    .column img {
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+
+    .mid {
+        margin-top: 2.5%;
+    }
+}
